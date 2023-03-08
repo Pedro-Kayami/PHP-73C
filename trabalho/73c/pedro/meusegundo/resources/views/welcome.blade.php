@@ -886,6 +886,8 @@
                             </p>
                         </div>
 
+
+
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
                         </svg>
@@ -929,14 +931,14 @@
                 </div>
             </div>
 
-            <form action='/contato' method='post'>
-                {{ csrf_field() }}<br>
-                Nome<br>
-                <input type='text' name='nome' value=''>
-                Cel<br>
-                <input type='number' name='cel' value=''>
-                <br>
-                <input type='submit' value='ok'>
+            <form action="/comida" method="post">
+                <label for="fname">Nome da Comida:</label><br>
+                <input type="text" id="fname" name="nome" placeholder=" Ex: Macarrão"><br>
+                <label for="lname">Quantidade:</label><br>
+                <input type="text" id="lname" name="qntd" placeholder="Ex: 2"><br><br>
+                <label for="lname">Preço:</label><br>
+                <input type="text" id="lname" name="preco" placeholder="Ex: R$:2,00"><br><br>
+                <input type="submit" value="Submit">
             </form>
 
             <div class="flex justify-center mt-16 px-0 sm:items-center sm:justify-between">
