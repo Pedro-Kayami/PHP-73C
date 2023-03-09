@@ -1,5 +1,5 @@
 <h3>Essa é a visão do Form de Comidas</h3>
-<!-- <style>
+<style>
     table,
     th,
     td {
@@ -22,4 +22,4 @@
 
 
     @endforeach
-</table> -->
+</table>

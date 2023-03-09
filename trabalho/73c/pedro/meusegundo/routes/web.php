@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('FormComida.FormComida');
 });
 
-Route::post('/comida', ['uses' => 'App\Http\Controllers\ComidaControler@index']);
+Route::post('/RotaComida', ['uses' => 'App\Http\Controllers\ComidaControler@index']);
